@@ -1,0 +1,20 @@
+{
+    "name": "chopdb",
+    "version": "0.1.0",
+    "description": "The go-to database for all episodes of the glorious television show Chopped!",
+    "license": "MIT",
+    "private": true,
+
+    "dependencies": {
+        "angular": "^1.2.x",
+        "angular-mocks": "^1.2.x",
+        "angular-resource": "^1.2.x",
+        "angular-route": "^1.2.x",
+        "jquery": "1.10.2"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "components"
+    ]
+}

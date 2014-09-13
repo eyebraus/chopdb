@@ -1,0 +1,40 @@
+{
+    "name": "chopdb",
+    "version": "0.1.0",
+    "description": "The go-to database for all episodes of the glorious television show Chopped!",
+    "author": {
+        "name": "Sean Brennan",
+        "email": "whalesonstilts2012@gmail.com",
+        "url": "https://github.com/eyebraus"
+    },
+    "contributors": [{
+        "name": "Sean Brennan",
+        "email": "whalesonstilts2012@gmail.com",
+        "url": "https://github.com/eyebraus"
+    }],
+    "license": "MIT",
+    "private": true,
+
+    "dependencies": {
+        "express": "~3.3.4",
+        "jade": "~0.34.0",
+        "stylus": "^0.47.x",
+        "superagent": "^0.18.x",
+        "underscore": "^1.6.x",
+        "vargs": "^0.1.x"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-develop": "~0.2.2",
+        "grunt-contrib-watch": "~0.5.3",
+        "load-grunt-tasks": "~0.2.0",
+        "request": "~2.27.0",
+        "time-grunt": "~0.1.1"
+    },
+    "engines": {
+        "node": ">=0.10"
+    },
+    "scripts": {
+        "start": "node app"
+    } 
+}
